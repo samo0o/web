@@ -85,34 +85,10 @@ li.dropdown-p {
     display: block;
     opacity: 0.8;
 }
-/* nav .search{
-    margin-left: 70px;
-    margin-top: 14px;
-}
-nav .search input [type=text]  {
-    margin-top: 8px;
-    font-size: 17px;
-    border: 4px;
-}
-nav .search button{
-    float: right;
-    padding: 6px 6px;
-    margin-top: -4px;
-    margin-left: 10px;
-    background-color: rgb(255, 255, 255);
-    font-size: 10px;
-    border-radius:25%;
-    cursor: pointer;
-
-}
-.search button:hover{
-    background: rgb(196, 205, 255);
-}  */
 
 #search .tb
 {
     display: table;
-    /* width: 100%;  */
 }
 
 #search .td
@@ -121,7 +97,7 @@ nav .search button{
     vertical-align: middle;
 } 
 
-#search input[type="text"], button[type="submit"]
+#search input[type="text"] , button[type="submit"]
 {
     color: #fff;
     font-family: Nunito;
@@ -142,21 +118,21 @@ nav .search button{
     margin: -46px auto 0 auto;
     background-color: #ff7575;
     border-radius: 20px;
-    box-shadow: 0 10px 40px #ff7c7c, 0 0 0 20px #ffffffeb;
+  /*   box-shadow: 0 10px 40px #ff7c7c, 0 0 0 20px #ffffffeb; */
     z-index: 1;
 }
 #search form
 {
-    height: 8px;
+    height: 9px;
 } 
 
 #search input[type="text"]
 {
     width: 100%;
-    height: 30px;
+    height: 20px;
     font-size: 30px;
     line-height: 1;
-    margin-top: -10px;
+    margin-top: -85px;
 }
 
 #search input[type="text"]::placeholder
@@ -174,10 +150,9 @@ nav .search button{
 {
     position: relative;
     display: block;
-    width: 40px;
-    /* height: px; */
+    width: 50px;
     cursor: pointer;
-    margin-top: -11px;
+    margin-top: -5px;
 }
 
 #s-circle
@@ -185,20 +160,20 @@ nav .search button{
     position: relative;
     top: -8px;
     left: 0;
-    width: 1px;
-    height: 5px;
+    width: 0px;
+    height: 0px;
     margin-top: 0;
     border-width: 0px;
-    border: 15px solid #fff;
+    border: 15px solid rgb(0, 0, 0);
     background-color: transparent;
     border-radius: 50%;
-    transition: 0.5s ease all;
+    transition: 0.8s ease all;
 }
 
 #search button[type="submit"] span
 {
     position: absolute;
-    top: 1px;
+    top: 8px;
     left: 43px;
     display: block;
     width: 3px;
@@ -217,7 +192,7 @@ nav .search button{
     right: 0;
     width: 13px;
     height: 15px;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     border-radius: 50px;
     transform: rotateZ(0);
     transition: 0.5s ease all;
@@ -245,19 +220,19 @@ nav .search button{
 #s-search:hover button[type="submit"] span:before
 {
     bottom: 11px;
-    transform: rotateZ(52deg);
+    transform: rotateZ(58deg);
 }
 
 #s-search:hover button[type="submit"] span:after
 {
-    bottom: -11px;
-    transform: rotateZ(-52deg);
+    bottom: -9px;
+    transform: rotateZ(-58deg);
 }
 #s-search:hover button[type="submit"] span:before, #s-search:hover button[type="submit"] span:after
 {
     right: -6px;
     width: 40px;
-    background-color: rgb(255, 253, 253);
+    background-color: rgb(0, 0, 0);
 }
 #home{
     background-image: url(foto/backround.jpg);
@@ -294,7 +269,6 @@ nav .search button{
     font-style: italic;
     text-align: center;
     color:white;
-    /* font-size: 19px; */
     font-weight: 900;
     
   
@@ -405,7 +379,6 @@ nav .search button{
     text-align: center;
     margin-top: -160px;
     height:1200px;
-    /* z-index: 1; */
     position: relative;
 }
 .our h3{
@@ -513,5 +486,4 @@ footer h4{
     margin-left: 300px;
     margin-top: -8px;
     font-size: 21px;
-}    
-    
+}   
