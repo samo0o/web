@@ -170,7 +170,7 @@ nav .search button{
     padding-left: 10px;
 }
 
-#search button
+#search button[type="submit"]
 {
     position: relative;
     display: block;
@@ -195,7 +195,7 @@ nav .search button{
     transition: 0.5s ease all;
 }
 
-#search button span
+#search button[type="submit"] span
 {
     position: absolute;
     top: 1px;
@@ -209,7 +209,7 @@ nav .search button{
     transition: 0.5s ease all;
 }
 
-#search button span:before, button span:after
+#search button[type="submit"] span:before, button[type="submit"] span:after
 {
     content: '';
     position: absolute;
@@ -242,18 +242,18 @@ nav .search button{
     transform: rotateZ(0);
 }
 
-#s-search:hover button span:before
+#s-search:hover button[type="submit"] span:before
 {
     bottom: 11px;
     transform: rotateZ(52deg);
 }
 
-#s-search:hover button span:after
+#s-search:hover button[type="submit"] span:after
 {
     bottom: -11px;
     transform: rotateZ(-52deg);
 }
-#s-search:hover button span:before, #s-search:hover button span:after
+#s-search:hover button[type="submit"] span:before, #s-search:hover button[type="submit"] span:after
 {
     right: -6px;
     width: 40px;
