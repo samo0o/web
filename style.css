@@ -121,7 +121,7 @@ nav .search button{
     vertical-align: middle;
 } 
 
-#search input, button
+#search input[type="text"], button[type="submit"]
 {
     color: #fff;
     font-family: Nunito;
